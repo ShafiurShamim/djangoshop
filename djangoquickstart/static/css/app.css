@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header.header {
+  background: #236284;
+  padding: 20px 0;
+}
+header.header h1 {
+  color: #f1f1f1;
+}
+nav.nav ul li {
+  list-style: none;
+  padding: 8px;
+}
+main.main {
+  padding: 100px 0;
+  text-align: center;
+}
+footer.footer {
+  border-top: 1px solid #e6e6e6;
+  padding-top: 10px;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
