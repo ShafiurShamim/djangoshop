@@ -1,5 +1,5 @@
 """
-Django settings for djangoquickstart project.
+Django settings for djangoshop project.
 """
 
 import os
@@ -22,7 +22,7 @@ except IOError as e:
     }
 
 PROJECT_DIR = os.path.join(BASE_DIR, SECRETS.get(
-    'project_name', 'djangoquickstart'))
+    'project_name', 'djangoshop'))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = str(SECRETS.get('root_urlconf', 'djangoquickstart.urls'))
+ROOT_URLCONF = str(SECRETS.get('root_urlconf', 'djangoshop.urls'))
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = str(SECRETS.get(
-    'wsgi_application', 'djangoquickstart.wsgi.application'))
+    'wsgi_application', 'djangoshop.wsgi.application'))
 
 
 # Database

@@ -6,5 +6,5 @@ ALLOWED_HOSTS = [
 
 DEBUG = False
 
-STATIC_URL = 'http://djangoquickstart.test/static/'
-MEDIA_URL = 'http://djangoquickstart.test/media/'
+STATIC_URL = 'http://djangoshop.test/static/'
+MEDIA_URL = 'http://djangoshop.test/media/'
